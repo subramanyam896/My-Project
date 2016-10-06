@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struts-config>
+	<action-mappings>
+		<action path="/login" type="com.action.LoginAction">
+			
+			<forward name="success" path="/home.jsp"></forward>
+			<forward name="failure" path="/invalidUser.jsp"></forward>
+			
+		</action>
+		<action path="/adminLogin" type="com.action.AdminLoginAction">
+			
+			<forward name="success" path="/admin.jsp"></forward>
+			<forward name="failure" path="/adminLogin.jsp"></forward>
+			
+		</action>
+		<action path="/register" type="com.action.RegisterAction">
+			<forward name="success" path="/registrationSuccess.jsp"></forward>
+			<forward name="failure" path="/registrationFailure.jsp"></forward>
+		</action>
+		<action path="/upload" type="com.action.ShareAction">
+			<forward name="success" path="/shareSuccess.jsp"></forward>
+			<forward name="failure" path="/shareFailure.jsp"></forward>
+		</action>
+		<action path="/updateProfile" type="com.action.UpdateProfileAction">
+			<forward name="success" path="/updateSuccess.jsp"></forward>
+			<forward name="failure" path="/updateFailure.jsp"></forward>
+		</action>
+		<action path="/tagPresentation" type="com.action.TagPresentationAction">
+			<forward name="success" path="/tagSuccess.jsp"></forward>
+			<forward name="failure" path="/tagFailure.jsp"></forward>
+		</action>
+		<action path="/company" type="com.action.CompanyAction">
+			<forward name="success" path="/admin.jsp"></forward>
+			<forward name="failure" path="/adminFailure.jsp"></forward>
+		</action>
+		<action path="/branch" type="com.action.BranchAction">
+			<forward name="success" path="/admin.jsp"></forward>
+			<forward name="failure" path="/adminFailure.jsp"></forward>
+		</action>
+		<action path="/updateCompany" type="com.action.UpdateCompanyAction">
+			<forward name="success" path="/admin.jsp"></forward>
+			<forward name="failure" path="/adminFailure.jsp"></forward>
+		</action>
+		<action path="/updateBranch" type="com.action.UpdateBranchAction">
+			<forward name="success" path="/admin.jsp"></forward>
+			<forward name="failure" path="/adminFailure.jsp"></forward>
+		</action>
+	</action-mappings>
+</struts-config>

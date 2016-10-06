@@ -1,0 +1,270 @@
+.body
+{
+	background: url("images/ab.jpg");
+	background-repeat: repeat;	
+}
+.indexImage
+{
+	position:absolute;
+	top:200px;
+	left:200px;
+}
+.container
+{
+  width:100%;
+  margin:0 auto;
+  border:1px solid gray;
+}
+.header
+{
+	
+	padding:4.5em;
+	color:green;
+	background-color:#ff0099;
+	clear:left;
+	background: url("images/backgroundImage.jpg");
+	border-bottom:5px groove gray;
+}
+.line
+{
+	position:absolute;
+	top:120px;
+	left:8px;
+	width:95.1%;
+  	padding:1.5em;
+ 	background-color:#ff99cc;
+  	float:right;
+  	border-bottom:5px groove gray;
+  	text-align:left;
+  	color:black;
+}
+.menu
+{
+	position:absolute;
+	top:95px;
+	left:300px;
+	
+}
+.menu ul
+{
+
+}
+.menu li
+{
+		
+    display:inline;
+	padding:0.25em;
+}
+.menu a
+{
+	
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: normal;
+	font-size: 16px;
+	float: left;
+	width: 135px;
+	height: 30px;
+	display: block;
+	padding-top: 15px;
+	background: url("images/menu.png") no-repeat left;
+}
+.login
+{
+	position:absolute;
+	top:250px;
+	left:890px;
+}
+.img
+{
+	position:absolute;
+	top:30%;
+	left:1%;
+	width:500px;
+}
+.button
+{
+	background-color: green;
+	width:70px;
+	height: 30px;
+	color:white;
+}
+.button:hover
+{
+	cursor: pointer;
+}
+.tab
+{
+	position:absolute;
+	top:200px;
+	left:80px;
+}
+.tab1
+{
+	position:absolute;
+	top:200px;
+	left:430px;
+}
+#footer
+{
+	position:absolute;
+	top:900px;
+	left:8px;
+	width:93%;
+	border-top: 2px groove gray;
+	padding:2.5em;
+	color:green;
+	background-color:#99ccff;
+	clear:left;
+	border-bottom:5px groove gray;
+	clear: both;
+	padding-top: 10px;
+}
+#footer p {
+	margin: 0;
+	font-size: 15px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#footer a {
+	color: #ffffff;
+}
+.logo
+{
+	position:absolute;
+	top:15px;
+	left:30px;
+
+	
+}
+.search
+{
+	position:absolute;
+	top:30px;
+	left:350px;
+	
+}
+.buttonImage
+{
+	height:25px;
+	width:40px;
+	background:url("images/search-ico.png") no-repeat center ;
+	background-color: blue;
+}
+.buttonImage:hover
+{
+	cursor:pointer;
+}
+.searchTextBox
+{
+	background:#D0D0D0;
+	height:18px;
+}
+.searchTextBox:hover
+{
+	background:#F0F0F0;
+}
+.search1
+{
+	position:absolute;
+	top:35px;
+	left:720px;
+	outline:none;
+}
+.search2
+{
+	position:absolute;
+	top:35px;
+	left:830px;
+	outline:none;
+}
+.signuptext
+{
+	position:absolute;
+	top:20px;
+	left:1050px;
+	
+}
+#text
+{
+	text-decoration:none;
+}
+.contact
+{
+	position:absolute;
+	top:200px;
+	left:650px;
+}
+.userpicture
+{
+	position:absolute;
+	top:200px;
+	left:50px;
+	
+}
+.userpicture a
+{
+	text-decoration: none;
+	color:gray;
+}
+.content
+{
+	position:absolute;
+	top:300px;
+	left:30px;
+	
+}
+.content a
+{
+	text-decoration: none;
+	color:white;
+}
+.roundedborder
+{
+	border:2px solid black;
+	border-radius:15px;
+}
+.pictureTop
+{
+	position:absolute;
+	top:15px;
+	left:1000px;
+}
+.pictureTop a
+{
+	text-decoration:none;
+}
+.showContentTable
+{
+	position:absolute;
+	top:200px;
+	left:340px;	
+}
+.accountTable
+{
+	position:absolute;
+	top:40px;
+	left:0px;
+	
+}
+a
+{
+	text-decoration:none;
+}
+.userMsg
+	{
+		position:absolute;
+		top:200px;
+		left:350px
+	}
+	.userMsg a
+	{
+		text-decoration:underline;
+	}
+	.tableColor
+	{
+		color:blue;
+		
+	}
